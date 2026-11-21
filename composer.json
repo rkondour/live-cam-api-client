@@ -1,0 +1,39 @@
+{
+    "name": "modjocams/live-cam-api-client",
+    "description": "High-performance PHP 8.4 client and flat-file JSON cache manager for live streaming APIs with SEO tag popularity filtering.",
+    "type": "library",
+    "keywords": [
+        "php84",
+        "streaming-api",
+        "json-cache",
+        "flat-file-cache",
+        "ssr",
+        "seo",
+        "modjocams"
+    ],
+    "homepage": "https://modjocams.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ModjoCams Engineering",
+            "homepage": "https://modjocams.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://modjocams.com/",
+        "docs": "https://modjocams.com/sitemap.xml"
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ModjoCams\\LiveCamClient\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
